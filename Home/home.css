@@ -1,0 +1,106 @@
+/* Color Theme Swatches in Hex */
+.Package｜翁江1958-1-hex { color: #736751; }
+.Package｜翁江1958-2-hex { color: #A6937C; }
+.Package｜翁江1958-3-hex { color: #593C22; }
+.Package｜翁江1958-4-hex { color: #BF584E; }
+.Package｜翁江1958-5-hex { color: #0D0D0D; }
+
+/*Nav Bar*/
+*{
+font-family: 'Lora', serif;
+padding: 0;
+margin: 0;
+overflow-x: hidden;
+}
+
+.logo{ overflow-y: hidden;}
+
+body{
+width: 100%;
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+background-color:whitesmoke;
+}
+.nav{
+display: flex;
+flex-direction: column;
+width: 100%;
+}
+
+.ul-top{
+display: flex;
+flex-direction: row;
+width: 100%;
+height: 4vh;
+padding-top: 4px;
+background-color:#A6937C;
+list-style-type: none;
+color:white;
+justify-content: center;
+text-align: center;
+position: fixed;
+box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; 
+
+}
+.ul-bottom{
+display: flex;
+flex-direction: row;
+width: 100%;
+height: 10%;
+list-style-type: none;
+justify-content:space-evenly;
+padding-top: 0.5cm;
+margin-top: 4vh;
+}
+a{
+text-decoration: none;
+color:#404A54;
+padding: 15px;
+}
+
+.logo{
+    color:azure;
+}
+/*Display*/
+.display{
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.3)),url('https://i.gifer.com/fxmL.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ul-bottom a{
+    color: azure;
+}
+
+.caption{
+    display: flex;
+    width: 90%;
+    justify-content: flex-end;
+    max-height:100%;
+    vertical-align: middle;
+    flex-direction: column;
+    color: aliceblue;
+
+}
+.caption .buttons{
+    
+}
+
+
+/*Display*/
+
+
+.container-bottom{
+padding: 0.2in;
+background-color:#0D0D0D;
+color: white;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+text-align: start;
+}
+
+p{ color:rgb(228, 228, 228)}

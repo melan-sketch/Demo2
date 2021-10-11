@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="account.css">
+    <script defer src="login.js"></script>
+    <script src="../menu/menu.js"></script>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya:wght@700&family=Lora:ital,wght@0,600;1,600&display=swap"
+        rel="stylesheet">
+
+
+    <title>Mista Coffee</title>
+</head>
+
+<body onload= "onLoadCartNumbers(), nameplace(), BuyItem()">
+    <!--Nav Bar-->
+    <div class="nav">
+        <ul class="ul-top">
+            <li>new coffee shop opening</li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <!--Welcome Container-->
+        <div class="display">
+            <nav>
+                <div class="menu-icon">
+                    <button onclick="caption()"> <span class="fa fa-bars" style="font-size: 30px;"></span> </button>
+                </div>
+                <div class="logo"><a href="../Home/home.html">
+                        <img src="../Image/mista (1).png" style="max-width: 50%;">
+                    </a>
+                </div>
+    
+                <div class="nav-items">
+                    <li><a class="Menu" href="../menu/menu.html">Menu</a></li>
+    
+                    <li><a href="../Location/location.html" class="Locations">Locations</a></li>
+    
+                    <li class="cart"><a href="/menu/cart.html" class="shoping-bag"><i class="fa fa-shopping-bag"
+                        style="font-size:24px"></i></a><span>0</span>
+                    </li>
+                </li>
+                </div>
+    
+    
+                <div class="account">
+                <li class="profile" style="list-style-type: none;"><span></span><a href="../account/account.html"><i class="fa fa-user-circle-o" style="font-size:24px; "></i></a></li>
+                 </div>
+    
+                <div class="cancel-icon">
+                    <button onclick="captionback()"> <span class="fa fa-times" style="font-size: 36px;"></span></button>
+                </div>
+            </nav>
+        </div>
+        <!--receipt-->
+        <div class="receipt">
+            <div>
+                <h1>Your Receipt Order</h1>
+                <hr><hr>
+            </div>
+            <div id="printCart"></div>
+            <hr>
+            <div id="total"></div>
+         </div>
+
+        <!--Contact (bottom container)-->
+        <div class="container-bottom">
+            <div class="contact-1">
+                <h1>Visit Us!</h1>
+                <item>
+                    <i></i>
+                </item>
+                <item>
+                    <i></i>
+                </item>
+                <item>
+                    <i></i>
+                </item>
+            </div>
+            <div class="contact-2">
+                <h1>Credit</h1>
+                <h3>Lan</h3>
+                <p>Design+Idea</p>
+                <p>JS</p>
+                <p>Css</p>
+                <br>
+                <h3>Son</h3>
+                <p>Editing</p>
+                <p>HTML</p>
+                <p>Research</p>
+                <p>Css</p>
+            </div>
+            <div class="contact-3">
+                <h1>Please give us a good score!</h1>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
